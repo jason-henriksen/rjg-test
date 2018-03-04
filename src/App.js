@@ -48,7 +48,7 @@ import './App.styl';
     return (
       <div>
         <h1>react-json-grid API Playground</h1>     
-        
+        <DocUI/>
         <hr/>
         <Grid 
           data={this.data} 
