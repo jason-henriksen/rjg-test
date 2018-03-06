@@ -4,9 +4,8 @@ import logo from './logo.svg';
 //components
 import Emoji from './Emoji';
 
-
 import Grid from 'react-json-grid';
-import DocUI from 'react-json-grid/lib/docTool/DocUI';
+//import DocUI from 'react-json-grid/src/docTool/DocUI';
 import autoBind from 'react-autobind';
 
 import { toJS, observable, action, computed } from 'mobx';
@@ -48,7 +47,6 @@ import './App.styl';
     return (
       <div>
         <h1>react-json-grid API Playground</h1>     
-        <DocUI/>
         <hr/>
         <Grid 
           data={this.data} 
